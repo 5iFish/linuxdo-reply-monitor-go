@@ -1,0 +1,24 @@
+# 账号、SMTP 授权码等配置
+.env
+.env.*
+!.env.example
+
+# 运行状态与 SQLite 数据
+/data/
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+*.sqlite3-shm
+*.sqlite3-wal
+
+# Go 构建与日志
+*.exe
+*.test
+*.out
+linuxdo-reply-monitor-go
+*.log
+.DS_Store
+.idea/
+.vscode/
